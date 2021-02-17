@@ -1,0 +1,35 @@
+There are actually tons of array methods and always we are in a big confusion to use which array methods in which situation.So First of all to eliminate this confusion, we have to ask some questions to ourselves . And these questions are as follows:
+1: To mutate the original array. 
+So whenever you have to mutate the original array there are actually 8 array  methods for that.
+Again along with mutation of arrays if we want to add some elements to the original array then we have to use either push method or unshift method.
+But push method actually add the elements to the end of the original array while unshift method actually add the elements to originalarray from starting position.
+
+On the other hand if we have to remove the elements from an original array then there are three methods for that which are pop, shift and splice method.
+But again as earlier, if we want to remove an element from end then we use pop method, similarly for removing an element from the starting position we use shift method and finally to delete any element as you want you have to use splice method.
+
+And the three others method which actually mutates the original array are reverse, sort and fill method.
+
+2: The second question which we have to ask ourselves is:
+What if we want to create a new array.
+So if we want to calculate new array based on original array then we use map method. Actually looping of arrays is done using mapmethod.
+
+We can also be able to create new arrays based on a certain condition. it means that based on a certain test condition,you have to extract some of the elements from original array and then keep that extracted element into the new array. And for that we use filter method.
+
+On the other hand if we want some part of original array, then we have to use slice method.
+
+To merge two arrays together and then kept that merged array into a new array, we have to use concat method.
+Similarly, to flatten the original to some depth we have to use two methods in which first one is flat method and then second one is flatmap method.
+
+3: Sometimes we need to extract the index of an original array.
+So for that we have two methods available in which first one is indexOf method which actually finds the index of an array based on value and second one is findIndexof method which actually finds the index of an array based on a ceratin condition.
+
+But if we actually need the array element itself then we have to use find method. And again this one is also based on a test condition that we specified in a callback function.
+
+4:Sometimes it is very important to know whether an array includes certain element or not and for that we basically use includes method which is again based on value.
+But based kn a certain condition we again have two methods which are some and every method.
+Every method actually returns the boolean value as true and false if every element is present in the array based on aceratin condition specified in a callback function. Actually all these three methods return a boolean value.
+
+Sometimes we have to transform a whole new array intoa string and for that we have to use join method.
+Or we might want to reduce an entire array to just one value and for that we use reduce method.
+So in reduce method we use an acuumulator which acts like a snowball to boil down an entore array into one just single value. And that value can be  of any type.
+To just loop over an array without producing any new value we use the foreach method. So remember this one does not create a new array.  
